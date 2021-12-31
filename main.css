@@ -36,12 +36,15 @@ b{
 
 
 @media screen and (min-width:720px) {
+    header{
+        padding: 50px 50px;
+    }
     header h2{
-        margin-left: calc( 55vw - 20px);
+        margin-left: calc( 50vw - 50px);
     }
 
     section{
-        padding: 50px 50px 50px 55vw;
+        padding: 50px 50px 50px 50vw;
     }
     p{
         font-size: 18px;
