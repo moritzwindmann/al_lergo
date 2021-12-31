@@ -15,7 +15,7 @@ header{
 }
 
 section{
-    padding: 30px 20px;
+    padding: 70px 20px;
 }
 
 p {
@@ -33,6 +33,33 @@ b{
     font-weight: 700;
 }
 
-#about{
+
+
+@media screen and (min-width:720px) {
+    header h2{
+        margin-left: calc( 55vw - 20px);
+    }
+
+    section{
+        padding: 50px 50px 50px 55vw;
+    }
+    p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+
+/* section background color */
+
+#about, #imprint{
     background-color: #A4A998;
+}
+
+#contact{
+    background-color: #838a6f;
+}
+
+#imprint{
+    color: rgb(45, 66, 51);
 }
